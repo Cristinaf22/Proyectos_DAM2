@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EspacioCultural" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="android:colorBackground">@color/my_background_color</item>
+    </style>
+
+    <style name="Theme.EspacioCultural" parent="Base.Theme.EspacioCultural" />
+
+    <color name="my_light_primary">#AA081B</color>
+    <color name="my_light_secondary">#DF8842</color>
+    <color name="my_background_color">#FBFBFE</color>
+    <!--<color name="my_background_color">#F5F5FB</color>-->
+
+</resources>

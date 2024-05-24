@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">25sp</dimen>
+    <dimen name="botonSize">20sp</dimen>
+    <dimen name="marginCreate">15dp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="titleTypeCreate">30sp</dimen>
+</resources>

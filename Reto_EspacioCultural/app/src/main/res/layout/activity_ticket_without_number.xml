@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/titleEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Concierto de rock"
+            style="@style/title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgEvent"
+            android:layout_width="700dp"
+            android:layout_height="300dp"
+            android:src="@drawable/inicio_background"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/marginLeft">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/appText"
+                    android:text="@string/maxCapacity"
+                    />
+
+                <TextView
+                    android:id="@+id/eventMaxCapacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/textSizeToFill"
+                    android:layout_marginRight="@dimen/marginRight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/marginLeft">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/appText"
+                    android:text="@string/ticketsReserved"/>
+
+                <TextView
+                    android:id="@+id/reservedTickets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/textSizeToFill"
+                    android:layout_marginRight="@dimen/marginRight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/marginLeft">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/appText"
+                    android:text="@string/userName"/>
+
+                <EditText
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/introduceUserName"
+                    style="@style/textSizeToFill"
+                    android:layout_marginRight="@dimen/marginRight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/marginLeft">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/appText"
+                    android:text="@string/ticketsToReserve" />
+
+                <EditText
+                    android:id="@+id/ticketsToReserved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/textSizeToFill"
+                    android:inputType="number"
+                    android:hint="@string/introduceTicketNumber"
+                    android:layout_marginRight="@dimen/marginRight"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnReserve"
+            android:text="@string/reserve"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/btnModify"
+            android:text="@string/modify"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="@string/cancel"
+            style="@style/buttonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

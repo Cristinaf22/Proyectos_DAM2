@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <EditText
+            android:id="@+id/eventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/eventTitle"
+            style="@style/title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgEvent"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_weight="2"
+            android:src="@drawable/cargar_imagen"
+            android:layout_marginRight="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/marginCreate">
+
+            <EditText
+                android:id="@+id/typeCreateEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:hint="@string/typeCreateEvent"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/dateEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/textSizeToFill"
+                    android:focusable="false"
+                    android:hint="@string/dateEvent"/>
+
+                <EditText
+                    android:id="@+id/hourEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/textSizeToFill"
+                    android:focusable="false"
+                    android:hint="@string/hourEvent"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/languageEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:hint="@string/languageEvent"/>
+
+            <EditText
+                android:id="@+id/directorNameEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/directorNameEvent"/>
+
+            <EditText
+                android:id="@+id/premiereYearEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:inputType="number"
+                android:hint="@string/premiereYearEvent"/>
+
+
+            <EditText
+                android:id="@+id/compositorNameEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/compositorNameEvent"/>
+
+            <EditText
+                android:id="@+id/chorusNameEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/chorusNameEvent"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/marginCreate">
+
+            <CheckBox
+                android:id="@+id/numCapacityEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:hint="@string/numCapacityEvent"/>
+
+            <EditText
+                android:id="@+id/maxCapacityEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:inputType="number"
+                android:hint="@string/maxCapacityEvent"/>
+
+            <EditText
+                android:id="@+id/priceEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:inputType="numberDecimal"
+                android:hint="@string/priceEvent"/>
+
+            <EditText
+                android:id="@+id/mainActorsListEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/mainActorsListEvent"/>
+
+            <EditText
+                android:id="@+id/durationMovieEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:inputType="number"
+                android:hint="@string/durationMovieEvent"/>
+
+
+            <EditText
+                android:id="@+id/participantsListEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/participantsListEvent"/>
+
+            <EditText
+                android:id="@+id/soloistListEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/soloistListEvent"/>
+
+            <EditText
+                android:id="@+id/orchestraNameEvent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textSizeToFill"
+                android:visibility="gone"
+                android:hint="@string/orchestraNameEvent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:text="@string/Crear"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:text="@string/cancel"
+            style="@style/buttonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+[
+    {
+        "directorName": "Pedro",
+        "mainActors": [
+            "Jose",
+            "Maria",
+            "Ana"
+        ],
+        "movieLength": 110,
+        "premiereYear": 2024,
+        "dateHour": "2024-05-20T16:00:00.000000",
+        "id": 1,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "español",
+        "maxCapacity": 50,
+        "name": "Movie 1",
+        "ticketLocations": [
+            3,
+            4
+        ],
+        "ticketPrice": 20.0,
+        "ticketsBought": 2,
+        "type": "pelicula"
+    },
+    {
+        "dateHour": "2024-05-14T19:00:00.000000",
+        "id": 0,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "español",
+        "maxCapacity": 25,
+        "name": "Musical 1",
+        "ticketLocations": [
+            6,
+            7,
+            8
+        ],
+        "ticketPrice": 10.0,
+        "ticketsBought": 5,
+        "type": "musical"
+    },
+    {
+        "chorusName": "hola",
+        "orchestraName": "HOPE",
+        "principalSoloist": [
+            "Jose",
+            "Maria",
+            "Ana"
+        ],
+        "songwriter": "Pedro",
+        "dateHour": "2024-05-19T10:00:00.000000",
+        "id": 2,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "inglés",
+        "maxCapacity": 50,
+        "name": "Opera 1",
+        "ticketLocations": [],
+        "ticketPrice": 20.0,
+        "ticketsBought": 2,
+        "type": "opera"
+    },
+    {
+        "participantList": [
+            "Pedro",
+            "Ana",
+            "Jose",
+            "Jesus"
+        ],
+        "dateHour": "2024-04-14T08:00:00.000000",
+        "id": 3,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "catalán",
+        "maxCapacity": 40,
+        "name": "Debate 1",
+        "ticketLocations": [],
+        "ticketPrice": 30.0,
+        "ticketsBought": 2,
+        "type": "debate"
+    },
+    {
+        "directorName": "Juan",
+        "mainActors": [
+            "Jose",
+            "Maria",
+            "Ana"
+        ],
+        "movieLength": 120,
+        "premiereYear": 2024,
+        "dateHour": "2024-07-08T15:00:00.000000",
+        "id": 4,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "catalán",
+        "maxCapacity": 80,
+        "name": "Movie 2",
+        "ticketLocations": [
+            6,
+            8
+        ],
+        "ticketPrice": 15.0,
+        "ticketsBought": 2,
+        "type": "pelicula"
+    },
+    {
+        "chorusName": "holi",
+        "orchestraName": "HOPE",
+        "principalSoloist": [
+            "Jose",
+            "Maria",
+            "Ana"
+        ],
+        "songwriter": "Pedro",
+        "dateHour": "2024-10-01T12:00:00.000000",
+        "id": 5,
+        "imageHighRes": "img_highres.png",
+        "imageLowRes": "img_lowres.png",
+        "language": "inglés",
+        "maxCapacity": 100,
+        "name": "Opera 2",
+        "ticketLocations": [
+            2,
+            3
+        ],
+        "ticketPrice": 25.0,
+        "ticketsBought": 2,
+        "type": "opera"
+    }
+]
