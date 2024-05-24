@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ARventurePath</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleApp">ARVENTURE \nPATH</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="repeatPassword">Repetir contraseña</string>
+    <string name="resumen">En un pequeño pueblo rodeado de naturaleza, cuatro niños jugaban cerca del bosque.Esta pandilla siempre había sentido una conexión especial con la naturaleza, pero desconocían que eran observados por seres mágicos.</string>
+    <string name="titleArventure">Nombre de la aventura</string>
+    <string name="distanceArventure">DISTANCIA</string>
+    <string name="minutesArventure">MINUTOS</string>
+    <string name="originArventure">ORIGEN: </string>
+    <string name="storyArventure">HISTORIA: </string>
+    <string name="summaryArventure">RESUMEN: </string>
+    <string name="registerText">¿No tienes cuenta? Regístrate</string>
+    <string name="tutorial">TUTORIAL</string>
+    <string name="noSkipTutorial">Te recomendamos no saltarte el tutorial</string>
+    <string name="skip">Saltar</string>
+    <string name="pickYourAventure">ESCOGE TU ARVENTURE!</string>
+    <string name="title">TÍTULO</string>
+    <string name="distance">DISTANCIA</string>
+    <string name="time">TIEMPO</string>
+    <string name="summary">RESUMEN</string>
+    <string name="login">LOGIN</string>
+    <string name="noregisterText">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="register">REGISTRARSE</string>
+    <string name="nextStop">Próximo destino:</string>
+    <string name="steps">Pasos:</string>
+    <string name="timeInGame">Tiempo:</string>
+    <string name="stepsArventure">PASOS: </string>
+    <string name="timeArventure">TIEMPO: </string>
+    <string name="routeArventure">RUTA: </string>
+    <string name="titleAchievement">LOGROS DESBLOQUEADOS</string>
+
+    <string name="seeMoreArventures">VER MÁS\n ARVENTURES</string>
+    <string name="back">Volver</string>
+</resources>
