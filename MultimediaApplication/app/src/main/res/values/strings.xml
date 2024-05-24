@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MultimediaApplication</string>
+    <string name="titleApplication">Aplicación Multimedia</string>
+    <string name="subtitle">Captura de archivos</string>
+    <string name="subtitle1">Visualización-reproducción de archivos</string>
+    <string name="subtitle2">Edición de archivos</string>
+    <string name="titleText">Archivos de Texto</string>
+</resources>
