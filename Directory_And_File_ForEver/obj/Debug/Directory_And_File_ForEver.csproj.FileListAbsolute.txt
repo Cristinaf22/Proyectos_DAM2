@@ -1,0 +1,17 @@
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Images\delete.png
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Images\edit.png
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Directory_And_File_ForEver.exe.config
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Directory_And_File_ForEver.exe
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Directory_And_File_ForEver.pdb
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.csproj.AssemblyReference.cache
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.GetNewNameDialog.resources
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.GetNewFileFolderDialog.resources
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.DirectoryAndFileForEver.resources
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.Properties.Resources.resources
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.csproj.GenerateResource.cache
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.csproj.CoreCompileInputs.cache
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.exe
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Directory_And_File_ForEver.pdb
+C:\Users\crisf\OneDrive\Desktop\Proyectos\M06_Acceso_a_datos\Directory_And_File_ForEver\obj\Debug\Director.FD55A8E7.Up2Date
