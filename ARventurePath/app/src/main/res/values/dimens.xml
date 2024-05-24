@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="minMargin">4dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="commonMargin">16dp</dimen>
+    <dimen name="largeMargin">24dp</dimen>
+    <dimen name="maxMargin">32dp</dimen>
+    <dimen name="titleSize">38sp</dimen>
+    <dimen name="commonTextSize">18sp</dimen>
+    <dimen name="skipTutoTextSize">16sp</dimen>
+    <dimen name="subtitleSize">20sp</dimen>
+    <dimen name="viewpager_next_item_visible">26dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">42dp</dimen>
+    <dimen name="achievementWidth">80dp</dimen>
+    <dimen name="achievementHeight">50dp</dimen>
+
+</resources>
